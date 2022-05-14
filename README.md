@@ -1,0 +1,2 @@
+# SimpleSpringCloudQuickStarter
+A SimpleSpringCloudQuickStarter Project
