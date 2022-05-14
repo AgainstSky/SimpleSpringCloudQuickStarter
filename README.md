@@ -1,4 +1,5 @@
 # SimpleSpringCloudQuickStarter
+
 A SimpleSpringCloudQuickStarter Project
 
 一个可以作为项目基石的快速启动的SpringCloud项目。
