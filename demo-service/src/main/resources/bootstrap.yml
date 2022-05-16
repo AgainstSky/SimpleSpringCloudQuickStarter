@@ -1,0 +1,25 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://81.70.198.160:8848
+        namespace: sqs
+      config:
+        enabled: true
+        server-addr: http://81.70.198.160:8848
+        file-extension: yml
+        namespace: sqs
+#          shared-configs[0]:
+#            data-id: common.yml
+#            refresh: true
+
+
+  application:
+    name: demo-service
+  profiles:
+    active: dev
+#rocketmq:
+#  nameServer: www.zyinux.com:9876
+#  producer:
+#    group: demo-mq
+

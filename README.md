@@ -6,12 +6,12 @@ A SimpleSpringCloudQuickStarter Project
 
 ## 具备的功能
 
-- SpringCloud(❌)
+- SpringCloud(✔️)
 - SpringGateway(❌)
 - MyBatisPlus(❌)
 - 接口日志打印(❌)
 - 权限控制(❌)
-- Nacos 注册中心和配置中心(❌)
+- Nacos 注册中心和配置中心(✔️)
 - 分库分表(❌)
 - Redis(❌)
 - MessageQueue(❌)
