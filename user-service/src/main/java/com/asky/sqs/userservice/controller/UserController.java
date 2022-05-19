@@ -1,5 +1,7 @@
 package com.asky.sqs.userservice.controller;
 
+import com.asky.qsq.common.IDResult;
+import com.asky.sqs.userservice.remote.IDService;
 import com.asky.sqs.userservice.service.IUserService;
 import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +25,14 @@ public class UserController {
 
     @Autowired
     IUserService userService;
+
+    @Autowired
+    IDService idService;
+
+    @GetMapping("id")
+    public IDResult id(){
+        return idService.getSegmentID("leaf-segment-test");
+    }
 
     @GetMapping("count")
     public Integer countUser() {
