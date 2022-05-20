@@ -33,6 +33,7 @@ public enum ResponseCodeEnum {
     METHOD_ARGUMENT_NOT_VALID("9001","参数校验错误"),
     MODIFY_COUNT_ERROR("9002","修改数据条数失败"),
     ID_GENERATOR_ERROR("9003","idservice生成id失败"),
+    DATE_NOT_EXITS("9004","数据不存在"),
     SYSTEM_EXCEPTION("9998","系统异常，请稍后重试"),
     SYSTEM_ERROR("9999","系统错误");
 

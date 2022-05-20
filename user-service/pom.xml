@@ -49,6 +49,11 @@
         </dependency>
         <!--        feign使用需要这两个依赖-->
 
+
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

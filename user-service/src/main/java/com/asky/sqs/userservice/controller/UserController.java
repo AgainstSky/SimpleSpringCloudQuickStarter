@@ -20,24 +20,4 @@ import javax.sql.DataSource;
 @RequestMapping("user")
 public class UserController {
 
-    @Autowired
-    DataSource dataSource;
-
-    @Autowired
-    IUserService userService;
-
-    @Autowired
-    IDService idService;
-
-    @GetMapping("id")
-    public IDResult id(){
-        return idService.getSegmentID("leaf-segment-test");
-    }
-
-    @GetMapping("count")
-    public Integer countUser() {
-        System.out.println(dataSource.getClass());
-        return userService.countUser();
-    }
-
 }
