@@ -2,11 +2,11 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: http://81.70.198.160:8848
+        server-addr: http://127.0.0.1:8848
         namespace: sqs
       config:
         enabled: true
-        server-addr: http://81.70.198.160:8848
+        server-addr: http://127.0.0.1:8848
         file-extension: yml
         namespace: sqs
 #        shared-dataids:
