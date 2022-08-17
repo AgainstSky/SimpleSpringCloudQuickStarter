@@ -1,5 +1,7 @@
 package com.asky.sqs.userservice;
 
+import com.asky.sqs.userservice.entity.UserEntity;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

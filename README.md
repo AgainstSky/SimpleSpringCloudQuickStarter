@@ -9,6 +9,7 @@ A SimpleSpringCloudQuickStarter Project
 - SpringCloud(✔️)
 - SpringGateway(❌)
 - MyBatisPlus(✔️)
+- Leaf分布式ID生成(✔️)
 - 接口日志打印(❌)
 - 权限控制(❌)
 - Nacos 注册中心和配置中心(✔️)
