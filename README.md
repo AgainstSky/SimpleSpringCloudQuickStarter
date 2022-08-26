@@ -7,7 +7,7 @@ A SimpleSpringCloudQuickStarter Project
 ## 具备的功能
 
 - SpringCloud(✔️)
-- SpringGateway(❌)
+- SpringGateway(✔️)
 - MyBatisPlus(✔️)
 - Leaf分布式ID生成(✔️)
 - 接口日志打印(❌)
